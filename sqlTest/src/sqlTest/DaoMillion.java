@@ -17,7 +17,7 @@ public class DaoMillion {
 	= "jdbc:mysql://localhost:3306/millionlive?serverTimezone=JST";
 	final String USER = "root";
 	final String PASS = "0402";
-	final String SQL = "select * from testtable";
+	final String SQL = "select * from testtable WHERE atttribute = 'Fa'";
 
 	 public List<DtoMillion> findAll() {
 	        List<DtoMillion> syainList = new ArrayList<>();
